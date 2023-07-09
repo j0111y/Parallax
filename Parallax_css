@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Didact Gothic:300,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap);
+
+
+#main {
+width: 100%; 
+padding:0;}
+
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+
+#parallax h1 {
+font-family:'Antonio', sans-serif; 
+font-size:24px; 
+font-weight:550; 
+text-transform: uppercase; 
+color:black; 
+padding:0; 
+margin:0;}
+
+#parallax h2 {
+font-family:'Antonio', sans-serif; 
+font-size:80px; 
+letter-spacing:10px; 
+text-align:center; 
+color:white; 
+font-weight:450; 
+text-shadow: 1px 1px 2px;
+text-transform:uppercase; 
+z-index:10; 
+opacity:.9;}
+
+#parallax p {
+font-family:'Didact Gothic', sans-serif; 
+font-weight:450; 
+font-size:14px; 
+line-height:24px;
+color:#3d3c3a;
+;}
+
+.first-character {
+font-weight:450; 
+float: left; 
+font-size: 84px; 
+line-height: 64px; 
+padding-top: 4px; 
+padding-right: 8px; 
+padding-left: 3px; 
+font-family: 'Didact Gothic', sans-serif;}
+
+.ny {color: #3d3c3a;}
+
+#parallax .title {
+background: white; 
+padding: 60px; 
+margin:0 auto; 
+text-align:center;}
+
+#parallax .title h1 
+{font-size:45px; 
+letter-spacing:5px;}
+
+#parallax .block {
+background: white; 
+padding: 60px; 
+width:1000px; 
+margin:0 auto; 
+text-align:justify;}
+
+#parallax .parallax-1 {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(https://mlsandiegomag.com/get/files/image/galleries/bt_XQGDMWLG4SRGOK0PMLRGT7HRCJK1I.jpg); background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center center;}
+
+
+#parallax .parallax-2 {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(https://www.dior.com/couture/var/dior/storage/images/folder-media/folder-videos/folder-defiles/folder-defile-cruise-2024/dior_cruise24_show_videofinale/40654621-2-fre-FR/dior_cruise24_show_videofinale.jpg); background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center center;}
+
+
+#parallax .parallax-3 {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(https://www.datocms-assets.com/59774/1664193717-1664105080-matteocanestraro-bureaufuture_mc35055.jpg?auto=format%2Ccompress&cs=srgb); 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: top center;}
+
+#parallax .parallax-4 {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1146716996.jpg); background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center center;}
+
+#parallax .parallax-5 {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(https://showstudio-wagtail-production-2019.s3-eu-west-1.amazonaws.com/images/Hermes_AW_20_runway_show_still.width-2400_fGO5h3OYlL16pHI2.png); background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: top center;}
+
+
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax .block {padding: 30px; width:420px;}
+  #parallax h2 {font-size:30px;}
+  #parallax .block {padding: 30px;}
+  #parallax .parallax-1, #parallax .parallax-2, #parallax .parallax-3, #parallax .parallax-4, #parallax .parallax-5 {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax .block {padding: 30px 15px; width:290px;}
+}
